@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+.sidebar {
+    /* background-color: aqua; */
+    background-color: rgb(187, 180, 180);
+    /* width: 160px; */
+    height: 100vh;
+    /* overflow: hidden; */
+    position: absolute;
+    transition: transform 0.3 ease-in;
+}
+
+.sidebar nav {
+    padding: 23px;
+}
+
+.sidebar nav ul li {
+    list-style: none;
+    font-size: 20px;
+    padding: 30px 1px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+    height: 100vh;
+    padding: 0px 0px 0px 20px;
+    /* overflow: hidden; */
+}
+
+.container {
+    display: flex;
+}
+
+.devpic {
+    margin: 0px 180px;
+}
+
+.devpic img {
+    height: 258px;
+}
+
+.infocontainer {
+    /* background-color: purple; */
+    width: 80vw;
+    height: 55vh;
+    margin: 85px 0px 0px 143px;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+
+.hello {
+    font-size: 40px;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+.about {
+    font-size: 30px;
+}
+
+.moreabout {
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 10px;
+}
+
+.buttons {
+    padding: 20px 0px;
+}
+
+.buttons button {
+    padding: 3px 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(143, 219, 243);
+    font-weight: bold;
+    margin: 8px 8px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    color: rgb(143, 219, 243);
+    background-color: white;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.contactform {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 50px 175px;
+}
+
+.contactform h1 {
+    font-family: 'Roboto Slab', serif;
+    margin: 60px;
+}
+
+.mb-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* .form-label {
+    font-size: 22px;
+font-weight: bold;
+margin-bottom: 8px;
+} */
+
+.mb-3 label {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+
+
+/* .clientemail {
+    width: 30vw;
+    padding: 2px;
+    margin-top: 6px;
+} */
+
+.mb-3 input {
+    width: 30vw;
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#emailHelp {
+    font-size: 10px;
+    color: darkblue;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 12px;
+    margin: 4px 6px 2px 5px;
+}
+
+#form-check label {
+    font-size: 13px;
+}
+
+.btn {
+    padding: 2px 22px;
+    font-size: 14px;
+    margin: 19px 137px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.blogcontainer {
+    margin: 0px 0px 0px 120px;
+}
+
+.blogcontainer h1 {
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/* .blogitem h2 {} */
+
+.blogitem {
+    margin: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.intro {
+    margin: 30px 0px 0px 170px;
+}
+
+.intro h2 {
+    font-family: 'Roboto Slab', serif;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.intro p {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 3px 0px 23px;
+    padding: 3px;
+}
+
+.skillcontainer {
+    padding: 10px 3px;
+}
+
+.skill {
+    /* margin: 20px; */
+    margin: 8px 0px;
+    width: 249px;
+    background-color: red;
+    height: 4px;
+}
+
+.eightyfive {
+    width: 185px;
+    height: 5px;
+    background-color: aqua;
+}
+
+.eighty {
+    width: 175px;
+    height: 5px;
+    background-color: rgb(85, 163, 85);
+}
+
+.forty {
+    width: 110px;
+    height: 5px;
+    background-color: red;
+}
+
+.ninty {
+    width: 235px;
+    height: 5px;
+    background-color: rgb(48, 170, 179);
+}
+
+.hundred {
+    width: 249px;
+    height: 5px;
+    background-color: rgb(78, 78, 52);
+}
+
+.hamburg {
+    position: absolute;
+    top: 0px;
+    left: 6px;
+    cursor: pointer;
+}
+
+.cross {
+    margin-left: 100px;
+}
+
+.sidebargo {
+    transform: translate(-230px, 0px);
+    position: absolute;
+}
+
+.projects h1 {
+    text-align: center;
+    margin: 0px;
+    /* margin-bottom: 0px; */
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.projects {
+    width: 90vw;
+}
+
+.forall {
+    width: 100vw;
+}
+
+.titles h2 {
+    margin: 30px 194px 20px;
+    font-weight: bolder;
+    background-color: rgb(181, 226, 226);
+    width: 20vw;
+}
+
+.titles img {
+    width: 60vw;
+    margin-left: 190px;
+}
+
+@media only screen and (max-width:990px) {
+    /* .sidebar {
+        transform: translate(-230px, 0px);
+        position: absolute;
+    } */
+    .infocontainer {
+        flex-wrap: wrap;
+    }
+}
